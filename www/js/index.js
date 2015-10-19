@@ -46,7 +46,7 @@ var app = {
 
         console.log('Received Event: ' + id);
         //Replace UA-XXXXXX-YY with your tracking ID
-        window.analytics.startTrackerWithId('UA-XXXXXX-YY');
+        window.analytics.startTrackerWithId('UA-31185677-1');
         window.analytics.trackView('Home')
         window.analytics.trackEvent('Home', 'DeviceReady', 'Hits', 1);
     }
